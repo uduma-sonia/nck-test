@@ -3,7 +3,7 @@ import avatar from "../../images/avatar.jpg";
 
 function Navbar() {
   return (
-    <div className="border-b border-slate-300 h-32 text-slate-800 text-md font-bold">
+    <div className="border-b border-slate-300 h-32 text-slate-800 text-lg font-bold">
       <ul className="uppercase flex justify-end items-end mt-10">
         <li>trips</li>
 
