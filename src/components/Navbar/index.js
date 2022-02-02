@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from "../../images/avatar.jpg";
 
 function Navbar() {
   return (
@@ -10,7 +11,13 @@ function Navbar() {
 
         <li className="mr-12">bookings</li>
 
-        <li className="profile_picture h-10 w-10 bg-red-700 rounded-full"></li>
+        <li className="profile_picture h-11 w-11 bg-red-700 rounded-full relative left-4">
+          <img
+            src={avatar}
+            alt="avatar"
+            className="h-full w-full rounded-full object-cover"
+          />
+        </li>
       </ul>
     </div>
   );

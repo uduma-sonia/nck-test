@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="container font-manrope">
+    <div className="container font-manrope px-7">
       <Navbar />
     </div>
   );
