@@ -22,6 +22,7 @@ function CardInputField() {
               Credit card number
             </label>
             <input
+              type="number"
               className="tracking-wider mt-2 border border-gray-300 rounded bg-gray-200 w-full text-slate-800 font-medium text-sm py-3 pl-4 pr-2"
               placeholder="4324 5433 9382 1030"
             />
@@ -31,6 +32,7 @@ function CardInputField() {
               Security code
             </label>
             <input
+                type="number"
               className="tracking-wider mt-2 border border-gray-300 rounded bg-gray-200 w-full text-slate-800 font-medium text-sm py-3 pl-4 pr-2"
               placeholder="420"
             />
@@ -43,6 +45,7 @@ function CardInputField() {
               Expiration date
             </label>
             <input
+              type="number"
               className="tracking-wider mt-2 border border-gray-300 rounded bg-gray-200 w-full text-slate-800 font-medium text-sm py-3 pl-4 pr-2"
               placeholder="03/24"
             />
@@ -52,6 +55,7 @@ function CardInputField() {
               Postal code
             </label>
             <input
+              type="number"
               className="tracking-wider mt-2 border border-gray-300 rounded bg-gray-200 w-full text-slate-800 font-medium text-sm py-3 pl-4 pr-2"
               placeholder="10119"
             />
