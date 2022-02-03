@@ -5,7 +5,7 @@ import discover from "../../images/discover.png";
 
 function CardInputField() {
   return (
-    <div className="w-1/2">
+    <div className="w-full md:w-1/2 mt-8 md:mt-0">
       <div className="flex justify-end">
         <div className="mr-7">
           <img src={visa} alt="visa-logo" />
@@ -16,8 +16,8 @@ function CardInputField() {
         </div>
       </div>
 
-      <div className="mt-10 flex">
-        <div className="w-1/2 pr-3">
+      <div className="mt-10 flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 pr-3">
           <div className="mb-8">
             <label className="font-semibold text-sm text-slate-800">
               Credit card number
@@ -38,7 +38,7 @@ function CardInputField() {
           </div>
         </div>
 
-        <div className="w-1/2 pl-3">
+        <div className="w-full md:w-1/2 md:pl-3 mt-8 md:mt-0">
           <div className="mb-8">
             <label className="font-semibold text-sm text-slate-800">
               Expiration date

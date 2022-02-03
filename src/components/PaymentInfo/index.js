@@ -4,7 +4,7 @@ import CardInputField from "./CardInputField";
 
 function PaymentInfo() {
   return (
-    <div className="flex pt-8 border-b border-slate-300 pb-5">
+    <div className="flex flex-col md:flex-row pt-8 border-b border-slate-300 pb-5">
       <CardDetail />
       <CardInputField />
     </div>
