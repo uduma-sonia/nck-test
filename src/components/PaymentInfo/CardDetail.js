@@ -3,7 +3,7 @@ import card from "../../images/credit-card.png";
 
 function CardDetail() {
   return (
-    <div className="w-full md:w-1/2 pr-44">
+    <div className="w-full md:w-1/2 md:pr-44">
       <h3 className="font-bold text-xl text-slate-800 mb-2">
         Payment Information
       </h3>
