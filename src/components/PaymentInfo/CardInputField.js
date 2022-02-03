@@ -1,7 +1,6 @@
 import React from "react";
 import visa from "../../images/visa.png";
 import paypal from "../../images/paypal.png";
-import discover from "../../images/discover.png";
 
 function CardInputField() {
   return (
